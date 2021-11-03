@@ -14,7 +14,8 @@ void enter()
 
 		int ch=0;
 
-			cout<<"How many students do u want to enter??"<<endl;
+			cout<<"\n\n\t\tHow many students do u want to enter??"<<endl;
+			cout<<"\n\t\t";
 
 			cin>>ch;
 
@@ -28,25 +29,25 @@ void enter()
 
 			{
 
-				cout<<"\nEnter the Data of student "<<i+1<<endl<<endl;
+				cout<<"\n\n\t\tEnter the Data of student "<<i+1<<endl<<endl;
 
-				cout<<"Enter name ";
+				cout<<"\n\n\t\tEnter name ";
 
 				cin>>arr1[i];
 
-				cout<<"Enter Roll no ";
+				cout<<"\n\n\t\tEnter Roll no ";
 
 				cin>>arr2[i];
 
-				cout<<"Enter Department ";
+				cout<<"\n\n\t\tEnter Department ";
 
 				cin>>arr3[i];
 
-				cout<<"Enter Year ";
+				cout<<"\n\n\t\tEnter Year ";
 
 				cin>>arr4[i];
 
-				cout<<"Enter contact ";
+				cout<<"\n\n\t\tEnter contact ";
 
 				cin>>arr5[i];
 
@@ -66,25 +67,25 @@ void enter()
 
 			{
 
-				cout<<"\nEnter the Data of student "<<i+1<<endl<<endl;
+				cout<<"\n\n\t\tEnter the Data of student "<<i+1<<endl<<endl;
 
-				cout<<"Enter name ";
+				cout<<"\n\n\t\tEnter name ";
 
 				cin>>arr1[i];
 
-				cout<<"Enter Roll no ";
+				cout<<"\n\n\t\tEnter Roll no ";
 
 				cin>>arr2[i];
 
-				cout<<"Enter Department ";
+				cout<<"\n\n\t\tEnter Department ";
 
 				cin>>arr3[i];
 
-				cout<<"Enter Year ";
+				cout<<"\n\n\t\tEnter Year ";
 
 				cin>>arr4[i];
 
-				cout<<"Enter contact ";
+				cout<<"\n\n\t\tEnter contact ";
 
 				cin>>arr5[i];
 
@@ -106,7 +107,7 @@ void show()
 
 	{
 
-		cout<<"No data is entered"<<endl;
+		cout<<"\n\n\t\tNo data is entered"<<endl;
 
 	}
 
@@ -116,17 +117,17 @@ void show()
 
 	    		{
 
-	    		cout<<"\nData of Student "<<i+1<<endl<<endl;
+	    		cout<<"\n\n\t\tData of Student "<<i+1<<endl<<endl;
 
-	    		cout<<"Name "<<arr1[i]<<endl;
+	    		cout<<"\n\n\t\tName "<<arr1[i]<<endl;
 
-	    		cout<<"Roll no "<<arr2[i]<<endl;
+	    		cout<<"\n\n\t\tRoll no "<<arr2[i]<<endl;
 
-	    		cout<<"Department "<<arr3[i]<<endl;
+	    		cout<<"\n\n\t\tDepartment "<<arr3[i]<<endl;
 
-	    		cout<<"Year "<<arr4[i]<<endl;
+	    		cout<<"\n\n\t\tYear "<<arr4[i]<<endl;
 
-	    		cout<<"Contact "<<arr5[i]<<endl;
+	    		cout<<"\n\n\t\tContact "<<arr5[i]<<endl;
 
 	    	    }
 
@@ -142,7 +143,7 @@ void search()
 
 	{
 
-		cout<<"No data is entered"<<endl;
+		cout<<"\n\n\t\tNo data is entered"<<endl;
 
 	}
 
@@ -150,7 +151,9 @@ void search()
 
 	string rollno;
 
-				cout<<"Enter the roll no of student"<<endl;
+				cout<<"\n\n\t\tEnter the roll no of student"<<endl;
+			    
+				cout<<"\n\n\t\t";	
 
 				cin>>rollno;
 
@@ -162,15 +165,15 @@ void search()
 
 					{
 
-						cout<<"Name "<<arr1[i]<<endl;
+						cout<<"\n\n\t\tName "<<arr1[i]<<endl;
 
-	    	        	cout<<"Roll no "<<arr2[i]<<endl;
+	    	        	cout<<"\n\n\t\tRoll no "<<arr2[i]<<endl;
 
-	    		        cout<<"Department "<<arr3[i]<<endl;
+	    		        cout<<"\n\n\t\tDepartment "<<arr3[i]<<endl;
 
-	    		        cout<<"Year "<<arr4[i]<<endl;
+	    		        cout<<"\n\n\t\tYear "<<arr4[i]<<endl;
 
-	    	        	cout<<"Contact "<<arr5[i]<<endl;
+	    	        	cout<<"\n\n\t\tContact "<<arr5[i]<<endl;
 
 					}
 
@@ -188,7 +191,7 @@ void update()
 
 	{
 
-		cout<<"No data is entered"<<endl;
+		cout<<"\n\n\t\tNo data is entered"<<endl;
 
 	}
 
@@ -196,7 +199,9 @@ void update()
 
 		string rollno;
 
-				cout<<"Enter the roll no of student which you want to update"<<endl;
+				cout<<"\n\n\t\tEnter the roll no of student which you want to update"<<endl;
+				
+				cout<<"\n\n\t\t";
 
 				cin>>rollno;
 
@@ -208,39 +213,39 @@ void update()
 
 					{
 
-						cout<<"\nPrevious data"<<endl<<endl;
+						cout<<"\n\n\t\tPrevious data"<<endl<<endl;
 
-						cout<<"Data of Student "<<i+1<<endl;
+						cout<<"\n\n\t\tData of Student "<<i+1<<endl;
 
-						cout<<"Name "<<arr1[i]<<endl;
+						cout<<"\n\n\t\tName "<<arr1[i]<<endl;
 
-	    	        	cout<<"Roll no "<<arr2[i]<<endl;
+	    	        	cout<<"\n\n\t\tRoll no "<<arr2[i]<<endl;
 
-	    		        cout<<"Department "<<arr3[i]<<endl;
+	    		        cout<<"\n\n\t\tDepartment "<<arr3[i]<<endl;
 
-	    		        cout<<"Year "<<arr4[i]<<endl;
+	    		        cout<<"\n\n\t\tYear "<<arr4[i]<<endl;
 
-	    	        	cout<<"Contact "<<arr5[i]<<endl;
+	    	        	cout<<"\n\n\t\tContact "<<arr5[i]<<endl;
 
-	    	        	cout<<"\nEnter new data"<<endl<<endl;
+	    	        	cout<<"\n\n\t\tEnter new data"<<endl<<endl;
 
-							cout<<"Enter name ";
+							cout<<"\n\n\t\tEnter name ";
 
 				            cin>>arr1[i];
 
-				            cout<<"Enter Roll no ";
+				            cout<<"\n\n\t\tEnter Roll no ";
 
 				            cin>>arr2[i];
 
-			             	cout<<"Enter Department ";
+			             	cout<<"\n\n\t\tEnter Department ";
 
 				            cin>>arr3[i];
 
-				            cout<<"Enter Year ";
+				            cout<<"\n\n\t\tEnter Year ";
 
 				            cin>>arr4[i];
 
-				            cout<<"Enter contact ";
+				            cout<<"\n\n\t\tEnter contact ";
 
 				            cin>>arr5[i];
 
@@ -262,7 +267,7 @@ void deleterecord()
 
 	{
 
-		cout<<"No data is entered"<<endl;
+		cout<<"\n\n\t\tNo data is entered"<<endl;
 
 	}
 
@@ -270,9 +275,11 @@ void deleterecord()
 
 		int a;
 
-	        	cout<<"Press 1 to delete all record"<<endl;
+	        	cout<<"\n\n\t\tPress 1 to delete all record"<<endl;
 
-				cout<<"Press 2 to delete specific record"<<endl;
+				cout<<"\n\n\t\tPress 2 to delete specific record"<<endl;
+				
+				cout<<"\n\n\t\t";
 
 				cin>>a;
 
@@ -282,7 +289,7 @@ void deleterecord()
 
 					total=0;
 
-					cout<<"All record is deleted..!!"<<endl;
+					cout<<"\n\n\t\tAll record is deleted..!!"<<endl;
 
 				}
 
@@ -292,7 +299,9 @@ void deleterecord()
 
 				string rollno;
 
-				cout<<"Enter the roll no of student which you wanted to delete"<<endl;
+				cout<<"\n\n\t\tEnter the roll no of student which you wanted to delete"<<endl;
+				
+				cout<<"\n\n\t\t";	
 
 				cin>>rollno;
 
@@ -322,7 +331,7 @@ void deleterecord()
 
 					total--;
 
-					cout<<"Your required record is deleted"<<endl;
+					cout<<"\n\n\t\tYour required record is deleted"<<endl;
 
 					}
 
@@ -338,7 +347,7 @@ void deleterecord()
 
 			{
 
-				cout<<"Invalid input";
+				cout<<"\n\n\t\tInvalid input";
 
 			}
 
@@ -349,24 +358,33 @@ void deleterecord()
 main()
 
 {
+	
 
 	int value;
 
 	while(true)
 
 	{
+		cout<<"\n\n\n\t\t STUDENT MANAGEMENT SYSTEM ";
+		cout<<"\n\t\t---------------------------";
+		cout<<"\n\t\t***************************";
 
-	cout<<"\nPress 1 to enter data"<<endl;
+	cout<<"\n\n\t*\t 1. Press 1 to enter data\t*\n";
 
-	cout<<"Press 2 to show data"<<endl;
+	cout<<"\n\n\t*\t 2. Press 2 to show data\t*\n";
 
-	cout<<"Press 3 to search data"<<endl;
+	cout<<"\n\n\t*\t 3. Press 3 to search data\t*\n";
 
-	cout<<"Press 4 to update data"<<endl;
+	cout<<"\n\n\t*\t 4. Press 4 to update data\t*\n";
 
-	cout<<"Press 5 to delete data"<<endl;
+	cout<<"\n\n\t*\t 5. Press 5 to delete data\t*\n";
 
-	cout<<"Press 6 to exit"<<endl;
+	cout<<"\n\n\t*\t 6. Press 6 to exit\t\t*\n";
+	
+		cout<<"\n\t\t---------------------------";
+		cout<<"\n\t\t***************************";
+		
+	cout<<"\n\n\t\t";	
 
 	cin>>value;
 
